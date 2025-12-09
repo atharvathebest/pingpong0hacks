@@ -1,7 +1,7 @@
 // Start of the complete JavaScript game logic
 let pagehiight = 1200;
 let pagewidth = 640;
-let p1scorer =1000000 ;
+let p1scorer =1 ;
 let p2scorer = 1 ;
 // Player 1 (Top Paddle - Green)
 let character = {
@@ -210,4 +210,5 @@ window.addEventListener("keyup", function(event) {
 	           return false;
 		     }
 		}
+
 		document.addEventListener('contextmenu', event => event.preventDefault());
